@@ -4,7 +4,7 @@ import Posts from "../posts/Posts"
 
 export default function Post({ post }) {
 
-    const PF = "http://localhost:5000/images/";
+    const PF = "https://letus-blogg.herokuapp.com/images/";
 
     return (
         <div className="post">

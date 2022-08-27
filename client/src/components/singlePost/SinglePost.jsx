@@ -12,7 +12,7 @@ export default function SinglePost() {
     const path = location.pathname.split("/")[2];
     const [post, setPost] = useState({});
 
-    const PF = "http://localhost:5000/images/";
+    const PF = "https://letus-blogg.herokuapp.com/images/";
     const { user } = useContext(Context);
 
     const [title, setTitle] = useState("");
